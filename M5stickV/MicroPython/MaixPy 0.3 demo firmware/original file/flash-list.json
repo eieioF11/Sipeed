@@ -1,0 +1,30 @@
+{
+  "version": "0.1.0",
+  "files": [
+    {
+      "address": 0x00000000,
+      "bin": "maixpy.bin",
+      "sha256Prefix": true
+    },
+    {
+      "address": 0x00200000,
+      "bin": "mnist.kmodel",
+      "sha256Prefix": false
+    },
+    {
+      "address": 0x00280000,
+      "bin": "facedetect.kmodel",
+      "sha256Prefix": false
+    },
+    {
+      "address": 0x00300000,
+      "bin": "20class.kmodel",
+      "sha256Prefix": false
+    },
+    {
+      "address": 0x00500000,
+      "bin": "mbnet75.kmodel",
+      "sha256Prefix": false
+    }
+  ]
+}

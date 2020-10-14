@@ -1,0 +1,25 @@
+MaixPy 0.3.1 AI demo package firmware
+Flash Partition:
+0x000000~0x200000	MaixPy firmware							(1.4MB)
+0x200000~0x280000	MNIST Handwritten digit recognition		(0.2MB)
+0x280000~0x300000	yolov2-tiny face detection 				(0.4MB)
+0x300000~0x500000	yolov2-tiny 20-classes object detection (1.2MB)
+0x500000~0x800000	MobileNet 1000-classes classifier model (2.7MB)
+0x800000~0xD00000	Reserve for other model or user data 	(5.0MB)
+0xD00000~0xFFFFFF	SPIFFS 									(3.0MB)
+
+Demonstrate functions:
+1. mnist : note: close to digit number, fill number to whole window to get best result
+2. mnist feature map: see every layer of mnist model
+3. face detection
+4. 20-classes object detection
+5. MobileNet 1000-classes classifier: put labels.txt to microSD card or flash file system first
+6. spectrogram
+7. microphone array: Sound field imaging
+
+
+Other functions(nes, lvgl, video, etc.):
+Download from http://dl.sipeed.com/MAIX/MaixPy/release/maixpy_v0.3.0/
+maixpy_v0.3.0_full.bin 
+
+
