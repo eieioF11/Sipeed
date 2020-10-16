@@ -34,7 +34,7 @@ while(True):
     elif but_b.value()== 0:
         led_w.value(1)
         led_r.value(0)
-        led_g.value(1)
+        led_g.value(0)
         led_b.value(1)
 
     else:
